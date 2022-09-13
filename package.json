@@ -1,0 +1,29 @@
+{
+  "name": "chatprj",
+  "version": "1.0.0",
+  "description": "Chat-Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lechinhtruc/Chat-Project.git"
+  },
+  "keywords": [
+    "chat",
+    "realtime",
+    "socketio",
+    "e2e-encrypt"
+  ],
+  "author": "letruc",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lechinhtruc/Chat-Project/issues"
+  },
+  "homepage": "https://github.com/lechinhtruc/Chat-Project#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
