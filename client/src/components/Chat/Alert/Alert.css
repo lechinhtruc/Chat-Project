@@ -1,0 +1,57 @@
+.root-alert {
+    display: flex;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    z-index: 99;
+}
+
+@keyframes opacity {
+    0% {
+        opacity: 70%;
+        animation-timing-function: ease-in;
+    }
+
+    100% {
+        opacity: 100%;
+    }
+}
+
+@keyframes scaleAnimationIn {
+    0% {
+        opacity: 15%;
+        animation-timing-function: ease-in;
+    }
+
+    100% {
+        opacity: 100%;
+    }
+}
+
+.background-alert {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.39);
+    animation: opacity 0.2s;
+    animation-fill-mode: both;
+}
+
+.main-alert {
+    padding: 25px;
+    width: 450px;
+    background-color: white;
+    border-radius: 15px;
+    z-index: 100;
+    animation: scaleAnimationIn 0.3s;
+    animation-fill-mode: both;
+}
+
+.content-alert {
+    padding-top: 10px;
+    word-wrap: break-word;
+
+    max-height: 350px;
+}

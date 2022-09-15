@@ -24,6 +24,8 @@
   },
   "homepage": "https://github.com/lechinhtruc/Chat-Project#readme",
   "dependencies": {
-    "express": "^4.18.1"
+    "express": "^4.18.1",
+    "mongoose": "^6.6.1",
+    "socket.io": "^4.5.2"
   }
 }

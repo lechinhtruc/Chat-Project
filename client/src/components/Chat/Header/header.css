@@ -1,0 +1,47 @@
+.header-chat {
+    display: flex;
+    align-items: center;
+}
+
+.avatar {
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 15px;
+    width: 100%;
+}
+
+.avatar .user {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.avatar .user h4 {
+    max-width: 270px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.avatar svg {
+    font-size: 24px;
+    padding: 15px;
+}
+
+.back-btn {
+    border-radius: 15px;
+    transition: 0.2s ease-in;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    background-color: rgb(255, 255, 255);
+    margin-right: 12px;
+}
+
+.back-btn svg {
+    padding: 15px;
+    font-size: 22px;
+}
+
+.back-btn:hover {
+    opacity: 50%;
+}

@@ -1,0 +1,77 @@
+.online-user {
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    border-radius: 15px;
+    padding: 25px;
+    background-color: rgb(252, 252, 252);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin-bottom: 25px;
+}
+
+.list-user {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+.list-user .user {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 80px;
+    width: 80px;
+    min-width: 80px;
+    margin: 0px 5px 0px 5px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.list-user .user:hover {
+    filter: brightness(85%);
+}
+
+.list-user .user .avatar-user {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    background-color: white;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    margin-bottom: 5px;
+    width: 50px;
+    height: 50px;
+}
+
+.list-user .user .avatar-user .circle {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    position: fixed;
+    width: 50px;
+    height: 50px;
+}
+
+.online-circle {
+    width: 13px;
+    height: 13px;
+
+    border-radius: 100%;
+    background-color: greenyellow;
+}
+
+
+.list-user .user .avatar-user svg {
+    font-size: 22px;
+}
+
+.list-user .user .name h5 {
+    max-width: 50px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

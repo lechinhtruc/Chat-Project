@@ -1,0 +1,30 @@
+.msg-box-send {
+    display: flex;
+    justify-content: flex-end;
+    margin: 5px 10px 10px 5px;
+  }
+  
+  .msg-box-send p {
+    padding: 15px;
+    border-radius: 15px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    word-wrap: break-word;
+    max-width: 50%;
+  }
+  
+  .msg-box-recived p {
+    padding: 15px;
+    border-radius: 15px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    word-wrap: break-word;
+    max-width: 50%;
+  
+  }
+  
+  .msg-box-recived {
+    display: flex;
+    justify-content: flex-start;
+    margin: 5px 10px 10px 10px;
+  }

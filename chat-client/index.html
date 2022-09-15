@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.socket.io/4.5.0/socket.io.min.js"
+        integrity="sha384-7EyYLQZgWBi67fBtVxw60/OWl1kjsfrPFcaU0pp0nAh+i8FD068QogUvg85Ewy1k"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/e99af0de55.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"
+        integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <script src="scripts.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+    <title>Chat Project</title>
+</head>
+
+<body>
+    <div class="root">
+        <div class="online-user">
+            <h2>Active users</h2>
+            <div class="list-user">
+                <!--   <div class="user">
+                    <div class="avatar-user">
+                        <i class="fa-solid fa-user fa-fw"></i>
+                    </div>
+                    <div class="name">
+                        <h5>Lê Chính</h5>
+                    </div>
+                </div> -->
+
+            </div>
+        </div>
+        <div class="main">
+            <div class="header-chat">
+                <div class="back-btn">
+                    <i class="fa-solid fa-arrow-left fa-fw"></i>
+                </div>
+                <div class="avatar">
+                    <i class="fa-solid fa-user fa-fw"></i>
+                    <div class="user">
+                        <h4>Lê Trực</h4>
+                        <small>Đang hoạt động</small>
+                    </div>
+                </div>
+            </div>
+            <div class="body-chat">
+               <!--  <div class="msg-box-send">
+                    <p>Test message</p>
+                </div>
+                <div class="msg-box-recived">
+                    <p>Test message</p>
+                </div> -->
+            </div>
+            <div class="footer-chat">
+                <div class="chat-input">
+                    <input id="msg" placeholder="Your Message...">
+                </div>
+                <div class="send-btn">
+                    <i class="fa-solid fa-paper-plane fa-fw"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
